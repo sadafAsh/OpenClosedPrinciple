@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae01b947-08c3-43b4-b082-b18378eea291" name="Default Changelist" comment="" />
+    <list default="true" id="ae01b947-08c3-43b4-b082-b18378eea291" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/soj/principle/openclosed/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/soj/principle/openclosed/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/javaJourney.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/javaJourney.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,6 +47,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24xTGcYLjgTg694VMybBw4YmIQc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -86,21 +106,81 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="717" height="176" key="GridCell.Tab.0.bottom" timestamp="1644573335549">
+    <state x="193" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1644586741520">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="717" height="176" key="GridCell.Tab.0.bottom/0.0.1368.720@0.0.1368.720" timestamp="1644573335549" />
-    <state width="717" height="176" key="GridCell.Tab.0.center" timestamp="1644573335549">
+    <state x="193" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1368.720@0.0.1368.720" timestamp="1644586741520" />
+    <state x="414" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1644578267494">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="717" height="176" key="GridCell.Tab.0.center/0.0.1368.720@0.0.1368.720" timestamp="1644573335549" />
-    <state width="717" height="176" key="GridCell.Tab.0.left" timestamp="1644573335548">
+    <state x="414" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.720@0.0.1368.720" timestamp="1644578267494" />
+    <state width="431" height="438" key="DebuggerActiveHint" timestamp="1644576267339">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="717" height="176" key="GridCell.Tab.0.left/0.0.1368.720@0.0.1368.720" timestamp="1644573335548" />
-    <state width="717" height="176" key="GridCell.Tab.0.right" timestamp="1644573335549">
+    <state width="431" height="438" key="DebuggerActiveHint/0.0.1368.720@0.0.1368.720" timestamp="1644576267339" />
+    <state width="1325" height="176" key="GridCell.Tab.0.bottom" timestamp="1644587048009">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state width="717" height="176" key="GridCell.Tab.0.right/0.0.1368.720@0.0.1368.720" timestamp="1644573335549" />
+    <state width="1325" height="176" key="GridCell.Tab.0.bottom/0.0.1368.720@0.0.1368.720" timestamp="1644587048009" />
+    <state width="1325" height="176" key="GridCell.Tab.0.center" timestamp="1644587048009">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="176" key="GridCell.Tab.0.center/0.0.1368.720@0.0.1368.720" timestamp="1644587048009" />
+    <state width="1325" height="176" key="GridCell.Tab.0.left" timestamp="1644587048009">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="176" key="GridCell.Tab.0.left/0.0.1368.720@0.0.1368.720" timestamp="1644587048009" />
+    <state width="1325" height="176" key="GridCell.Tab.0.right" timestamp="1644587048009">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="176" key="GridCell.Tab.0.right/0.0.1368.720@0.0.1368.720" timestamp="1644587048009" />
+    <state width="1325" height="220" key="GridCell.Tab.1.bottom" timestamp="1644576407819">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="220" key="GridCell.Tab.1.bottom/0.0.1368.720@0.0.1368.720" timestamp="1644576407819" />
+    <state width="1325" height="220" key="GridCell.Tab.1.center" timestamp="1644576407818">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="220" key="GridCell.Tab.1.center/0.0.1368.720@0.0.1368.720" timestamp="1644576407818" />
+    <state width="1325" height="220" key="GridCell.Tab.1.left" timestamp="1644576407818">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="220" key="GridCell.Tab.1.left/0.0.1368.720@0.0.1368.720" timestamp="1644576407818" />
+    <state width="1325" height="220" key="GridCell.Tab.1.right" timestamp="1644576407818">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state width="1325" height="220" key="GridCell.Tab.1.right/0.0.1368.720@0.0.1368.720" timestamp="1644576407818" />
+    <state x="0" y="103" key="Vcs.Push.Dialog.v2" timestamp="1644573715012">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state x="0" y="103" key="Vcs.Push.Dialog.v2/0.0.1368.720@0.0.1368.720" timestamp="1644573715012" />
+    <state x="87" y="171" key="git4idea.merge.GitPullDialog" timestamp="1644573741088">
+      <screen x="0" y="0" width="1368" height="720" />
+    </state>
+    <state x="87" y="171" key="git4idea.merge.GitPullDialog/0.0.1368.720@0.0.1368.720" timestamp="1644573741088" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Rectangle.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Calculation.java</url>
+          <line>8</line>
+          <properties class="com.soj.principle.openclosed.Calculation" method="calculate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
