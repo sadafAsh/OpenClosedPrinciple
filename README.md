@@ -1,8 +1,12 @@
 # OpenClosedPrinciple
-
-
-
-
+        
+        Open/Closed Principle is one of five design priciple for object-oriented programing.They
+are best known as SOLID principles.Open-closed principle states that Software entities(classes,
+modules ,function etc) should be open for extension,but closed for modification.
+         In this project 'Shape' is an interface and,'Square','Circle' are the concrete classes 
+which implements the interface.Calculation is a concrete class.Any changes in a code lead to 
+some unexpected errors in the future.So it is advisable to apply open-close principle that means 
+without making any changes(closed for modification) in the calculation class,we can add(extend) a new object ('Rectangle').
 
 
 JunitTest:

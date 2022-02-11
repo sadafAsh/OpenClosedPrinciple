@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae01b947-08c3-43b4-b082-b18378eea291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soj/principle/openclosed/CalculationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soj/principle/openclosed/CircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soj/principle/openclosed/RectangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soj/principle/openclosed/SquareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/javaJourney.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/javaJourney.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Calculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soj/principle/openclosed/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,12 +225,27 @@
       <option name="project" value="LOCAL" />
       <updated>1644587272519</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test is committed">
+      <created>1644596695030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644596695030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test is committed">
+      <created>1644596746713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644596746713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="calculate area is committed" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculate area is committed" />
+    <MESSAGE value="test is committed" />
+    <option name="LAST_COMMIT_MESSAGE" value="test is committed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="193" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1644586741520">
@@ -258,10 +256,10 @@
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state x="414" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.720@0.0.1368.720" timestamp="1644578267494" />
-    <state x="317" y="0" key="CommitChangelistDialog2" timestamp="1644587791949">
+    <state x="317" y="0" key="CommitChangelistDialog2" timestamp="1644596746299">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state x="317" y="0" key="CommitChangelistDialog2/0.0.1368.720@0.0.1368.720" timestamp="1644587791949" />
+    <state x="317" y="0" key="CommitChangelistDialog2/0.0.1368.720@0.0.1368.720" timestamp="1644596746299" />
     <state width="431" height="438" key="DebuggerActiveHint" timestamp="1644576267339">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
@@ -298,10 +296,10 @@
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state width="1325" height="220" key="GridCell.Tab.1.right/0.0.1368.720@0.0.1368.720" timestamp="1644576407818" />
-    <state x="0" y="103" key="Vcs.Push.Dialog.v2" timestamp="1644587337891">
+    <state x="0" y="103" key="Vcs.Push.Dialog.v2" timestamp="1644596764455">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state x="0" y="103" key="Vcs.Push.Dialog.v2/0.0.1368.720@0.0.1368.720" timestamp="1644587337891" />
+    <state x="0" y="103" key="Vcs.Push.Dialog.v2/0.0.1368.720@0.0.1368.720" timestamp="1644596764455" />
     <state x="455" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1644589351867">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
@@ -310,10 +308,10 @@
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state x="465" y="75" key="git4idea.branch.GitSmartOperationDialog/0.0.1368.720@0.0.1368.720" timestamp="1644587776182" />
-    <state x="87" y="171" key="git4idea.merge.GitPullDialog" timestamp="1644587975552">
+    <state x="87" y="171" key="git4idea.merge.GitPullDialog" timestamp="1644596783580">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
-    <state x="87" y="171" key="git4idea.merge.GitPullDialog/0.0.1368.720@0.0.1368.720" timestamp="1644587975552" />
+    <state x="87" y="171" key="git4idea.merge.GitPullDialog/0.0.1368.720@0.0.1368.720" timestamp="1644596783580" />
     <state x="340" y="160" width="672" height="677" key="run.anything.popup" timestamp="1644596374735">
       <screen x="0" y="0" width="1368" height="720" />
     </state>
