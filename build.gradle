@@ -1,6 +1,8 @@
 plugins {
     id 'java'
     id 'io.spring.dependency-management' version '1.0.1.RELEASE'
+    id 'jacoco'
+    id "org.sonarqube" version "3.3"
 }
 
 group 'org.soj.principle.openclosed'
@@ -11,6 +13,46 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
 }
+test {
+    finalizedBy jacocoTestReport // report is always generated after tests run
+}
+jacocoTestReport {
+    dependsOn test // tests are required to run before generating the report
+}
+
+
+test {
+    useJUnitPlatform()
+}
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}
+jacocoTestReport {
+    dependsOn test // tests are required to run before generating the report
+
+    afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: [
+                    "**/*Main*"
+            ])
+        }))
+    }
+}
+
+tasks.named('sonarqube').configure {
+    dependsOn test
+}
+sonarqube {
+    properties {
+        property "sonar.exclusions", "**/*Main.java"
+
+        property 'sonar.host.url', 'http://localhost:9000'
+        property 'sonar.login','c44a0b168848d59025ca6c1c4fe592d3a75c1a11'
+        property 'sonar.projectKey','OpenClosedPrinciple'
+    }
+}
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
@@ -19,4 +61,7 @@ dependencies {
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.17.1'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.17.1'
     implementation group: 'com.lmax', name: 'disruptor', version: '3.+'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
